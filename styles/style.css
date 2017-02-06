@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
