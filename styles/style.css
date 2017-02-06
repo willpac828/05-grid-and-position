@@ -23,6 +23,11 @@ img {
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+
 }
 
 
@@ -85,24 +90,35 @@ a {
 }
 
 .card {
-
+  border: 1px #ddd solid;
 
 }
 
 .card__head {
   background-color: #f7c24b;
   position: relative;
+  padding: 1rem;
+
 }
 
 .card__head p {
   background-color: #399beb;
-  position:absolute;
+  position: absolute;
   top: 0;
+  left: 50%;
+  margin: 0;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+  color:white;
 }
 
 .card__head h4 {
-  margin-bottom: 0;
+  margin: 0;
+  display: inline-block;
+  padding: 2rem;
 }
+
+
 
 .card__content {
   margin-top: 0;
