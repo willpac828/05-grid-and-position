@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  font: 1rem;
+  font: 1rem sans-serif;
+  color: black;
+
 }
 
 ul {
@@ -14,4 +16,114 @@ img {
 
 * {
   box-sizing: border-box;
+
+}
+
+.author {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.nav {
+  background-color: #399beb;
+  overflow: auto;
+  color: white;
+}
+
+.nav__left {
+  float: left;
+  padding-left: 2rem;
+}
+
+.nav__right {
+  float: right;
+  padding-right: 2rem;
+}
+
+.nav__list {
+
+}
+
+.nav__item {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+  font-family: sans-serif;
+}
+
+.section {
+  margin: 0;
+  padding: 1rem;
+  background-color: white;
+}
+
+.container {
+  margin: 0 3rem;
+  padding-top: 2rem;
+  max-width: 55rem;
+  margin: auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.grid__item {
+
+  margin: 1rem;
+  min-width: 20rem;
+  flex-basis: calc(100% / 2 - 2rem);
+}
+
+.card {
+
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.card__head {
+  background-color: #f7c24b;
+  position: relative;
+  padding: .5rem;
+
+}
+
+.card__head p {
+  background-color: #399beb;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  padding: .5rem;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.card__head h4 {
+  margin: 0;
+  display: inline-block;
+  padding: 2rem;
+}
+
+
+
+.card__content {
+  margin-top: 0;
+  padding: 1rem;
+  background-color: white;
 }
